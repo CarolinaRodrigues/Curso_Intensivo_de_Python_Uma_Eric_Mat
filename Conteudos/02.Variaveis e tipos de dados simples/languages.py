@@ -7,10 +7,21 @@
 
 #print("Languages: \n\tPython\n\tC\n\tJavaScript")# Quebra de linha e tabulçaõ juntas:
 
-
+#Metodo rstrip = para verificar o lado direito para ver se tem espaços em branco
 #Removendo espaços em brancos
-favorite_language = 'python'
+favorite_language = 'python '
 favorite_language
 
 favorite_language.rstrip()
 favorite_language
+
+#Removendo espaço em branco do lado esqquedo usando a 
+#lstrip()
+#Remover os espaços em branco dos dois lados strip
+
+
+favorite_language = " python "
+favorite_language.rstrip()
+
+favorite_language.lstrip()
+favorite_language.strip()

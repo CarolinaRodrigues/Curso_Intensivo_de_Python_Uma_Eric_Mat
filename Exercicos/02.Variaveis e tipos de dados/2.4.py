@@ -3,5 +3,10 @@
 #minúsculas, em letras maiúsculas e somente com a primeira letra maiúscula.
 
 first_name = "carolina"
-midle_name = "leite"
+middle_name = "leite"
 last_name = "rodrigues"
+full_name = first_name + " " + middle_name + " " + last_name
+
+print(full_name.lower()) #letra minúscula
+print(full_name.upper()) #letra maiúscula
+print(full_name.title()) #Primeira letra maiúscula
